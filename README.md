@@ -15,123 +15,104 @@ Execute the program
 
 # CODE
 ```html
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-         <meta name="viewport" 
-         content="width=device-width, initial-scale=1.0">
-         <style>
-
-        .bookpage{
-            width: 400px;
-            height: 600px;
-            background-color: #161515;
-            color:white;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 20px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-image: url("back.jpeg");
-            background-size: cover;
-        }
-            
-
-        .toptext{
-            color:rgb(220, 219, 223);
-
-        }
-
-        
-        .tophr{
-            width:140px;
-        }
-        .author{
-            color: white;
-            display: inline;
-            position: relative;
-            color:lightblue;
-            top:190px;
-            
-            font-family:Georgia;
-            font-size: medium;
-        }
-        .booktitle{
-            font-family: 'Courier New', Courier, monospace;
-            font-size: larger;
-            text-align: center;
-            position: relative;
-            top: 30px;
-        
-        }
-        .id {
-            width:400px;
-            position: relative;
-            top:180px;
-            
-        }
-        .publisher{
-            font-size: medium;
-            position: relative;
-            top:155px;
-            left:330px;
-        }
-        .edition{
-            color:red;
-            font-size: medium;
-            font-family: Verdana;
-            position:relative;
-            top:85px;
-
-        }
-        .subtitle{
-            font-family:Tahoma;
-            font-size: large;
-            position: relative;
-            top:40px;
-        }
-        .photo{
-            position: relative;
-            top: 135px;
-            left: 260px;
-            width: 100px;
-            height: 100px;
-            background-size: cover;
-        }
-        </style>
-        <title>Book Cover Page</title>
-    </head>
-    <body>
-        <div class="bookpage">
-            <div class="toptext">
-                EXPERT INSIGHT
-            </div>
-            <div class="tophr">
-                <hr style="color: red;">
-            </div>
-            <div class="booktitle">
-                <h1>Responsive Web Design With HTML5 and CSS</h1></div>
-            <div class="subtitle">
-                Develop future-proof responsive websites using the latest HTML5 and CSS Techniques
-            </div>
-            <div class="photo">
-                <img src="https://i.ibb.co/kmNCwNR/Yellow-And-Grey-Novel-Book-Cover.png" width="130" height="145" alt="">
-            </div>
-            <div class="id">
-                <hr style="color: orange;">
-            </div>
-            <div class="author">
-               <p><b>Mohanish</b></p>
-            </div>
-            <div class="publisher">
-            </div>
-            <div class="edition">
-                <b>First Edition</b>
-            </div>
-            
-        </div>
-    </body>
+<head>
+<title>Slot Timetable</title>
+</head>
+<body>
+<center>
+<img src="https://i.ibb.co/hc30Wwc/WEB-LOGO-01.png" height="100" width="540">
+</center>
+<br>
+<table align="center" width="540" cellspacing="2" cellpadding="4" border="5" bgcolor="cyan">
+<caption><b>SLOT TIME TABLE - Mohanish.K (22002294)</b></caption>
+<tr align="center">
+<th bgcolor="yellow">Day/Time</th>
+<th bgcolor="yellow">Monday</th>
+<th bgcolor="yellow">Tuesday</th>
+<th bgcolor="yellow">Wednesday</th>
+<th bgcolor="yellow">Thursday</th>
+<th bgcolor="yellow">Friday</th>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">8-10</th>
+<td colspan="3" align="center">FREE SLOT</td>
+<td>PHY</td>
+<td>CHE</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">10-12</th>
+<td>GER</td>
+<td> FREE SLOT </td>
+<td>FWAD</td>
+<td>FWAD</td>
+<td>PHY</td>
+</tr>
+<tr>
+<th bgcolor="yellow">12-1</th>
+<td colspan="5" align="center">L U N C H</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">1-3</th>
+<td colspan="2" align="center">FREE SLOT</td>
+<td>MAT</td>
+<td>MAT</td>
+<td>SS</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">3-5</th>
+<td colspan="2" align="center">FREE SLOT</td>
+<td>GER</td>
+<td>CHE</td>
+<td>FWAD</td>
+</tr>
+</table>
+<br>
+<table align="center" cellspacing="2" cellpadding="4" border="2">
+<tr align="center">
+<th>S. No.</th>
+<th>Subject Code</th>
+<th>Subject Name</th>
+</tr>
+<tr>
+<td align="center">1.</td>
+<td align="center">19AI414</td>
+<td>Fundamentals of Web Application Development (FWAD)</td>
+</tr>
+<tr>
+<td align="center">2.</td>
+<td align="center">19EN612</td>
+<td>German Basic (GER)</td>
+</tr>
+<tr>
+<td align="center">3.</td>
+<td align="center">19PH206</td>
+<td>Physics for Information Technology (PHY)</td>
+</tr>
+<tr>
+<td align="center">4.</td>
+<td align="center">19CY205</td>
+<td>Principles of Chemistry in Engineering (CHE)</td>
+</tr>
+<tr>
+<td align="center">5.</td>
+<td align="center">19MA201</td>
+<td>Calculus and Matrix Algebra (MAT)</td>
+</tr>
+<tr>
+<td align="center">6.</td>
+<td align="center">19EY701</td>
+<td>Soft Skills (SS)</td>
+</tr>
+</table>
+</body>
 </html>
+
+
 ```
 # OUTPUT
-![Yellow And Grey Novel Book Cover](https://github.com/Mohanish7777777/timetable/assets/111619160/ef3aceb9-0be4-4fca-8546-8928ba495509)
+![Screenshot 2023-05-15 095228](https://github.com/Mohanish7777777/timetable/assets/111619160/fbcbce25-88eb-43f6-9385-9a6464df83d2)
+
 
